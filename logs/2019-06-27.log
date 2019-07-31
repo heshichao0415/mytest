@@ -1,0 +1,25 @@
+时间:2019-06-27 00:27:24,771 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:27:24,771 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:27:24,961 级别:ERROR 消息：access_token写入失败
+时间:2019-06-27 00:27:25,019 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'code': '1234', 'mobile': '15882438611', 'os': 'ios'} 返回结果：{'code': 422, 'message': '验证码已过期'}
+时间:2019-06-27 00:27:25,019 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-27 00:27:35,209 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:27:35,209 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:27:35,383 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'timestamp': 1561566451, 'code': 200, 'data': {'code': 1234}, 'once': 'k8XTDV', 'message': 'success'}
+时间:2019-06-27 00:27:35,384 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-27 00:28:07,933 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:28:07,933 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:28:08,079 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'message': '验证码已发送，请稍后再试', 'code': 422}
+时间:2019-06-27 00:28:08,080 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-27 00:28:43,181 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:28:43,181 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:28:43,328 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'message': 'success', 'code': 200, 'once': '7BFQCS', 'timestamp': 1561566519, 'data': {'code': 1234}}
+时间:2019-06-27 00:28:43,329 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-27 00:33:33,566 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:33:33,592 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:33:33,856 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'timestamp': 1561566809, 'code': 200, 'message': 'success', 'data': {'code': 1234}, 'once': 'bkNOrr'}
+时间:2019-06-27 00:33:33,856 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-27 00:36:29,042 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:36:29,070 级别:INFO 消息：链接redis成功
+时间:2019-06-27 00:36:29,941 级别:DEBUG 消息：ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：None
+时间:2019-06-27 00:36:29,941 级别:DEBUG 消息：充值接口 验证完毕

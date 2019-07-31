@@ -1,0 +1,71 @@
+时间:2019-06-25 21:27:15,898 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:27:15,898 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:27:16,218 级别:DEBUG 消息：QBInterface_st->QBInterface_auth->test_login_token: 传参：{'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E', 'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk'} 返回结果：{'code': 200, 'message': '登录成功', 'token': 'zfn4UuMsCRdph8RQtdPr369tMAFzYsKe5t03UdH8z16d61b1mG4z86rqqjJIi4Hz'}
+时间:2019-06-25 21:27:16,219 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-25 21:28:55,861 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:28:55,861 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:28:56,070 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:28:56,071 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:28:56,455 级别:DEBUG 消息：ZY.auth.QBInterface_st->QBInterface_auth->test_login_token: 传参：{'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk', 'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E'} 返回结果：{'token': 'K4F2dRJdmxmNRfPX4xf694G4DM6xiaQEHNcmDo21KP5bCTzh2zu7mkIfgv5ltOoG', 'message': '登录成功', 'code': 200}
+时间:2019-06-25 21:28:56,455 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-25 21:30:50,952 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:30:50,967 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:30:51,006 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:30:51,006 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:30:51,162 级别:DEBUG 消息：ZY.auth.QBInterface_st->QBInterface_auth->test_login_token: 传参：{'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk', 'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E'} 返回结果：{'code': 200, 'message': '登录成功', 'token': 'sp1Fhey3Ersz6q0FyrpBWtGbnkB702JPEQ0FYU9GOJgdqKDGouCtoiwHndKFh0qO'}
+时间:2019-06-25 21:30:51,162 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-25 21:32:50,693 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:32:50,693 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:42:53,694 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:42:53,706 级别:INFO 消息：链接redis成功
+时间:2019-06-25 21:42:53,983 级别:INFO 消息：token写入成功
+时间:2019-06-25 21:42:53,985 级别:DEBUG 消息：QBInterface_st->QBInterface_auth->test_login_token: 传参：{'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E', 'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk'} 返回结果：{'message': '登录成功', 'token': 'ncbEkv3WOvSzKpUxOuAXycQhOmtOKtdHqu3R5qZ3Z15ngsaknd16ZEm5d9Oo0JT5', 'code': 200}
+时间:2019-06-25 21:42:53,985 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-25 22:00:21,184 级别:INFO 消息：链接redis成功
+时间:2019-06-25 22:00:21,192 级别:INFO 消息：链接redis成功
+时间:2019-06-25 22:00:21,373 级别:DEBUG 消息：QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'message': '请求方法不允许', 'code': 405, 'once': 'Nmf4ed', 'timestamp': 1561471219}
+时间:2019-06-25 22:00:21,374 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 22:00:41,277 级别:INFO 消息：链接redis成功
+时间:2019-06-25 22:00:41,277 级别:INFO 消息：链接redis成功
+时间:2019-06-25 22:00:41,404 级别:DEBUG 消息：QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'message': 'access_token is valid', 'once': '5Ugimi', 'code': 401, 'data': None, 'timestamp': 1561471239}
+时间:2019-06-25 22:00:41,404 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 22:02:38,637 级别:INFO 消息：链接redis成功
+时间:2019-06-25 22:02:38,638 级别:INFO 消息：链接redis成功
+时间:2019-06-25 22:02:38,796 级别:DEBUG 消息：QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'timestamp': 1561471356, 'message': 'access_token is valid', 'code': 401, 'data': None, 'once': 'foYnj2'}
+时间:2019-06-25 22:02:38,797 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 23:47:46,762 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:47:46,772 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:47:50,353 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438601'} 返回结果：None
+时间:2019-06-25 23:47:50,353 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 23:49:39,509 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:49:39,509 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:49:39,552 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438601'} 返回结果：None
+时间:2019-06-25 23:49:39,553 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 23:52:08,425 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:52:08,425 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:52:08,469 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438601'} 返回结果：None
+时间:2019-06-25 23:52:08,469 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 23:54:20,810 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:54:20,810 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:54:20,846 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：None
+时间:2019-06-25 23:54:20,846 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 23:54:57,933 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:54:57,933 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:55:16,821 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:55:16,821 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:55:16,856 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：None
+时间:2019-06-25 23:55:16,856 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 23:57:18,939 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:57:18,939 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:57:34,579 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:57:34,579 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:57:34,647 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：None
+时间:2019-06-25 23:57:34,648 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 23:57:50,595 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:57:50,595 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:57:50,627 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：None
+时间:2019-06-25 23:57:50,627 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-25 23:58:32,932 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:58:32,933 级别:INFO 消息：链接redis成功
+时间:2019-06-25 23:58:32,967 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：None
+时间:2019-06-25 23:58:32,967 级别:DEBUG 消息：好友邀请 验证完毕

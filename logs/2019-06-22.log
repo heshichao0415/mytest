@@ -1,0 +1,10 @@
+时间:2019-06-22 02:00:57,524 级别:INFO 消息：链接redis成功
+时间:2019-06-22 02:00:57,524 级别:INFO 消息：链接redis成功
+时间:2019-06-22 02:01:41,355 级别:INFO 消息：链接redis成功
+时间:2019-06-22 02:01:41,355 级别:INFO 消息：链接redis成功
+时间:2019-06-22 02:01:41,494 级别:DEBUG 消息：QBInterface->QBInterface_auth->test_login_token: 传参：{'account': '97DC75E8-A681-09F1-0840-86C0173DAB73', 'pass': 'wtLWbHrYlzAjIcpe632NKJiDPhV58n4B'} 返回结果：{'message': '登录成功', 'code': 200, 'token': 'QsVskHVG6LN6AIjg99MC7z7yEV3v6MVDaGn3g8jNUhc3PreIlpkglFi6Yl7XTito'}
+时间:2019-06-22 02:01:41,495 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-22 02:02:29,515 级别:INFO 消息：链接redis成功
+时间:2019-06-22 02:02:29,515 级别:INFO 消息：链接redis成功
+时间:2019-06-22 02:02:29,875 级别:DEBUG 消息：QBInterface->QBInterface_auth->test_login_token: 传参：{'pass': 'wtLWbHrYlzAjIcpe632NKJiDPhV58n4B', 'account': '97DC75E8-A681-09F1-0840-86C0173DAB73'} 返回结果：{'token': 'vnfoRtj618i8yYuDqJ4SftxqC4NPTATVWDIcA3gDBHClMTm7affBmpJbThxZmumM', 'code': 200, 'message': '登录成功'}
+时间:2019-06-22 02:02:29,875 级别:DEBUG 消息：获取token 验证完毕

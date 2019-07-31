@@ -1,0 +1,161 @@
+时间:2019-06-26 00:09:16,738 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:09:16,739 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:09:16,801 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{} 返回结果：None
+时间:2019-06-26 00:09:16,801 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 00:10:05,074 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:10:05,074 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:10:05,109 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438603', 'code': '1234', 'os': 'ios'} 返回结果：None
+时间:2019-06-26 00:10:05,109 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 00:12:00,565 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:12:00,565 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:12:00,602 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438603', 'os': 'ios', 'code': '1234'} 返回结果：None
+时间:2019-06-26 00:12:00,602 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 00:13:10,755 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:13:10,755 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:13:10,920 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'code': 200, 'once': 'GtAkE2', 'message': 'success', 'timestamp': 1561479188, 'data': {'code': 1234}}
+时间:2019-06-26 00:13:10,920 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 00:14:19,567 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:14:19,568 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:14:19,973 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'os': 'ios', 'code': '1234', 'mobile': '15882438611'} 返回结果：None
+时间:2019-06-26 00:14:19,973 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 00:17:32,135 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:17:32,157 级别:INFO 消息：链接redis成功
+时间:2019-06-26 00:17:32,297 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'once': '1CiSRf', 'code': 200, 'data': {'code': 1234}, 'timestamp': 1561479450, 'message': 'success'}
+时间:2019-06-26 00:17:32,297 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 21:50:01,241 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:50:01,255 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:50:01,458 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'message': 'success', 'once': 'yQoxWp', 'data': {'code': 1234}, 'timestamp': 1561556997, 'code': 200}
+时间:2019-06-26 21:50:01,459 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 21:50:26,971 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:50:26,971 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:50:27,301 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'code': '1234', 'os': 'ios', 'mobile': '15882438611'} 返回结果：{'code': 200, 'message': 'success', 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTU3MDIzLCJleHAiOjE1NjE1OTMwMjMsIm5iZiI6MTU2MTU1NzAyMywianRpIjoiVkdETWRGSGhsakVlNzVkMSIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.FgyWBNfjYMKsylCr_R2-JVkqjL53I8uamKSLaeBYv7E'}, 'once': 'LxUSPe', 'timestamp': 1561557023}
+时间:2019-06-26 21:50:27,301 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 21:51:31,099 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:51:31,130 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:51:31,275 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'code': '1234', 'mobile': '15882438611', 'os': 'ios'} 返回结果：{'message': '验证码已过期', 'code': 422}
+时间:2019-06-26 21:51:31,275 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 21:51:42,846 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:51:42,846 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:51:42,976 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'data': {'code': 1234}, 'code': 200, 'timestamp': 1561557098, 'message': 'success', 'once': '1TFdaB'}
+时间:2019-06-26 21:51:42,976 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 21:51:50,702 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:51:50,702 级别:INFO 消息：链接redis成功
+时间:2019-06-26 21:51:50,859 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'code': '1234', 'os': 'ios'} 返回结果：{'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTU3MTA2LCJleHAiOjE1NjE1OTMxMDYsIm5iZiI6MTU2MTU1NzEwNiwianRpIjoiVFk1Rjh1bHVUUEV6TU9sMyIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.bgyzSCq6FBxC5KfPwDAgXxgRwjso_W1HcudER-UbFiw'}, 'once': 'hDDBkG', 'code': 200, 'timestamp': 1561557106, 'message': 'success'}
+时间:2019-06-26 21:51:50,859 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 22:58:34,814 级别:INFO 消息：链接redis成功
+时间:2019-06-26 22:58:34,828 级别:INFO 消息：链接redis成功
+时间:2019-06-26 22:58:35,101 级别:ERROR 消息：token写入失败
+时间:2019-06-26 22:58:35,138 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'os': 'ios', 'code': '1234'} 返回结果：{'code': 422, 'message': '验证码已过期'}
+时间:2019-06-26 22:58:35,138 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:13:11,127 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:13:11,136 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:13:11,448 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'message': 'success', 'timestamp': 1561561987, 'data': {'code': 1234}, 'code': 200, 'once': 'Uee4to'}
+时间:2019-06-26 23:13:11,448 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:13:19,228 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:13:19,228 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:13:19,406 级别:ERROR 消息：token写入失败
+时间:2019-06-26 23:13:19,409 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'code': '1234', 'os': 'ios'} 返回结果：{'message': 'success', 'timestamp': 1561561995, 'code': 200, 'once': 'EcyU6X', 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYxOTk1LCJleHAiOjE1NjE1OTc5OTUsIm5iZiI6MTU2MTU2MTk5NSwianRpIjoiblBFSGdvTmRkV1I2aXRNdyIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.HJTMWNZu5_BhfqMbti7nK_K2MoWaXp1coAFw2KpIwsg'}}
+时间:2019-06-26 23:13:19,409 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:18:45,878 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:18:45,903 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:18:46,083 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'data': {'code': 1234}, 'code': 200, 'once': '88TGtB', 'message': 'success', 'timestamp': 1561562322}
+时间:2019-06-26 23:18:46,084 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:18:53,194 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:18:53,194 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:18:53,393 级别:ERROR 消息：token写入失败
+时间:2019-06-26 23:18:53,396 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'os': 'ios', 'code': '1234'} 返回结果：{'once': 'oeCFeJ', 'timestamp': 1561562329, 'message': 'success', 'code': 200, 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYyMzI5LCJleHAiOjE1NjE1OTgzMjksIm5iZiI6MTU2MTU2MjMyOSwianRpIjoiZjBINnpnMllteEJhT0pZRSIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.jkbw1sDHcHcu32sB85uA6Baorv0n02H99ylxUCp7Xns'}}
+时间:2019-06-26 23:18:53,397 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:20:36,396 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:20:36,396 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:20:36,534 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'message': 'success', 'data': {'code': 1234}, 'once': 'RyQdP5', 'code': 200, 'timestamp': 1561562432}
+时间:2019-06-26 23:20:36,534 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:20:43,859 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:20:43,859 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:20:44,014 级别:ERROR 消息：token写入失败
+时间:2019-06-26 23:20:44,015 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'code': '1234', 'os': 'ios', 'mobile': '15882438611'} 返回结果：{'once': 'ijOjvb', 'code': 200, 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYyNDM5LCJleHAiOjE1NjE1OTg0MzksIm5iZiI6MTU2MTU2MjQzOSwianRpIjoic0hGMlJIYlhrN3hoSzFBOSIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.HssEDL2fVhiGNHLYoDNxzX0Q-hsIwt2TwrxU8Tm-7j8'}, 'timestamp': 1561562439, 'message': 'success'}
+时间:2019-06-26 23:20:44,016 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:21:31,184 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:21:31,184 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:21:31,338 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'os': 'ios', 'code': '1234', 'mobile': '15882438611'} 返回结果：{'message': '验证码已过期', 'code': 422}
+时间:2019-06-26 23:21:31,338 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:21:43,207 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:21:43,208 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:21:43,355 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'data': {'code': 1234}, 'message': 'success', 'code': 200, 'timestamp': 1561562499, 'once': 'wY1czM'}
+时间:2019-06-26 23:21:43,355 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:21:48,169 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:21:48,169 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:21:48,345 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'os': 'ios', 'code': '1234', 'mobile': '15882438611'} 返回结果：{'once': 'nqntZy', 'message': 'success', 'timestamp': 1561562504, 'code': 200, 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYyNTA0LCJleHAiOjE1NjE1OTg1MDQsIm5iZiI6MTU2MTU2MjUwNCwianRpIjoicUVJWmFjdDlVVGhFb291diIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.1vFtsOU8V6m0I1LDgSyY60qKYyHGfVoGHh38kctAQrE'}}
+时间:2019-06-26 23:21:48,345 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:22:19,086 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:22:19,086 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:22:19,227 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'data': {'code': 1234}, 'timestamp': 1561562535, 'once': 'uHJbIj', 'code': 200, 'message': 'success'}
+时间:2019-06-26 23:22:19,227 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:24:23,989 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:24:23,989 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:24:24,200 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'code': '1234', 'os': 'ios'} 返回结果：{'message': 'success', 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYyNjYwLCJleHAiOjE1NjE1OTg2NjAsIm5iZiI6MTU2MTU2MjY2MCwianRpIjoiS0wyTzJSOE56WUJPTkhCaSIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.aXhVMivZxX_Tw9L0fHhxVnpk3MStisX-qh9UJfDjj9I'}, 'once': 'A5LQAB', 'code': 200, 'timestamp': 1561562660}
+时间:2019-06-26 23:24:24,200 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:25:37,896 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:25:37,896 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:25:38,037 级别:ERROR 消息：token写入失败
+时间:2019-06-26 23:25:38,038 级别:DEBUG 消息：QBInterface_st->QBInterface_auth->test_login_token: 传参：{'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E', 'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk'} 返回结果：{'timestamp': 1561562734, 'code': 404, 'message': '访问资源URI不存在', 'once': 'ZVudiA'}
+时间:2019-06-26 23:25:38,039 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:26:13,431 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:26:13,431 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:26:13,570 级别:DEBUG 消息：QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'code': 401, 'message': 'access_token is valid', 'timestamp': 1561562769, 'once': '2HUd4G', 'data': None}
+时间:2019-06-26 23:26:13,571 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:28:50,582 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:28:50,582 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:28:50,714 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'message': 'success', 'once': 'FvnMnf', 'code': 200, 'timestamp': 1561562926, 'data': {'code': 1234}}
+时间:2019-06-26 23:28:50,715 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:28:58,628 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:28:58,629 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:28:58,777 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'os': 'ios', 'code': '1234'} 返回结果：{'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYyOTM0LCJleHAiOjE1NjE1OTg5MzQsIm5iZiI6MTU2MTU2MjkzNCwianRpIjoiQkF0NjBNMkl0eGNWM3ZoMiIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.sBe-9FDai-dWDbufV6JxWdHJ2oivTMM_1j3ByqiYLH0'}, 'timestamp': 1561562934, 'message': 'success', 'code': 200, 'once': '0yrJL0'}
+时间:2019-06-26 23:28:58,777 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:29:25,710 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:29:25,711 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:29:25,854 级别:ERROR 消息：token写入失败
+时间:2019-06-26 23:29:25,856 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'os': 'ios', 'mobile': '15882438611', 'code': '1234'} 返回结果：{'message': '验证码已过期', 'code': 422}
+时间:2019-06-26 23:29:25,856 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:29:32,193 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:29:32,193 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:29:32,321 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'once': 'ZYdWS2', 'message': 'success', 'code': 200, 'data': {'code': 1234}, 'timestamp': 1561562968}
+时间:2019-06-26 23:29:32,321 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:29:35,874 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:29:35,874 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:29:36,033 级别:ERROR 消息：token写入失败
+时间:2019-06-26 23:29:36,034 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'os': 'ios', 'mobile': '15882438611', 'code': '1234'} 返回结果：{'timestamp': 1561562971, 'once': 'oX4w3t', 'message': 'success', 'code': 200, 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYyOTcyLCJleHAiOjE1NjE1OTg5NzIsIm5iZiI6MTU2MTU2Mjk3MiwianRpIjoiVXBVNTRJNEZkR29hRVBEYyIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.ZR70HZqNQQSDHcYPj_9TwCSDCJygcVQExdYQJg7d_DE'}}
+时间:2019-06-26 23:29:36,034 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:31:19,026 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:31:19,027 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:31:19,171 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'data': {'code': 1234}, 'timestamp': 1561563075, 'message': 'success', 'once': '7rwJf6', 'code': 200}
+时间:2019-06-26 23:31:19,171 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:31:32,870 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:31:32,870 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:31:33,031 级别:ERROR 消息：token写入失败
+时间:2019-06-26 23:31:33,032 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'code': '1234', 'os': 'ios', 'mobile': '15882438611'} 返回结果：{'once': 'v9xlXM', 'code': 200, 'timestamp': 1561563088, 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYzMDg5LCJleHAiOjE1NjE1OTkwODksIm5iZiI6MTU2MTU2MzA4OSwianRpIjoibmxGUk5uTUtDbE1uUXR3ciIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.LtJ_MKJrJYmGZ7RgITc37mAxyVH5_lCKcIcyS55D9hQ'}, 'message': 'success'}
+时间:2019-06-26 23:31:33,032 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:31:58,907 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:31:58,908 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:31:59,052 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'data': {'code': 1234}, 'message': 'success', 'once': 't4E3lN', 'timestamp': 1561563115, 'code': 200}
+时间:2019-06-26 23:31:59,052 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-06-26 23:32:02,558 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:32:02,559 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:32:02,751 级别:INFO 消息：token写入成功
+时间:2019-06-26 23:32:02,752 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'code': '1234', 'os': 'ios', 'mobile': '15882438611'} 返回结果：{'code': 200, 'message': 'success', 'data': {'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90d29yay56aGFueWUuYXBpLnlvdXhpbi5pbmZvOjQ0NzUyXC9hcGlcL3ZcLzEuMFwvYXV0aFwvYWNjZXNzX3Rva2VuIiwiaWF0IjoxNTYxNTYzMTE4LCJleHAiOjE1NjE1OTkxMTgsIm5iZiI6MTU2MTU2MzExOCwianRpIjoiUEJWY0lWdFRUNUZXYVhiSiIsInN1YiI6MzM1MiwicHJ2IjoiMWQwYTAyMGFjZjVjNGI2YzQ5Nzk4OWRmMWFiZjBmYmQ0ZThjOGQ2MyIsImlkIjozMzUyLCJtb2JpbGUiOiIxNTg4MjQzODYxMSJ9.oLPadd_yWCYere9Y2z7ZDd9PQB3GHQ-fwqyv-ji8Nr8'}, 'timestamp': 1561563118, 'once': '8tuoAs'}
+时间:2019-06-26 23:32:02,752 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-26 23:35:24,201 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:35:24,211 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:35:24,273 级别:DEBUG 消息：ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：None
+时间:2019-06-26 23:35:24,274 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-06-26 23:36:03,601 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:36:03,601 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:36:03,772 级别:DEBUG 消息：ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'code': 422, 'timestamp': 1561563359, 'once': '5f7LKb', 'data': None, 'message': '充值参数ID不能为空'}
+时间:2019-06-26 23:36:03,772 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-06-26 23:37:42,133 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:37:42,137 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:37:42,320 级别:DEBUG 消息：ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'code': 200, 'message': 'success', 'data': [{'no': '5cb9944b402e9', 'coin': 29900, 'id': 1, 'deleted_at': None, 'amount': 29900, 'updated_at': 1560388901, 'created_at': 1556450315}, {'no': '5cb9945314b03', 'coin': 69900, 'id': 2, 'deleted_at': None, 'amount': 69900, 'updated_at': 1561435334, 'created_at': 1556450315}, {'no': '5cb9945839fac', 'coin': 149900, 'id': 3, 'deleted_at': None, 'amount': 149900, 'updated_at': 1560388914, 'created_at': 1556450315}, {'no': '5cb9945e68198', 'coin': 299900, 'id': 4, 'deleted_at': None, 'amount': 299900, 'updated_at': 1560388920, 'created_at': 1556450315}, {'no': '5cb994643b6a2', 'coin': 619900, 'id': 5, 'deleted_at': None, 'amount': 619900, 'updated_at': 1560388929, 'created_at': 1556450315}, {'no': '5cb994726b6d5', 'coin': 999900, 'id': 6, 'deleted_at': None, 'amount': 1, 'updated_at': 1561536521, 'created_at': 1556450315}], 'timestamp': 1561563458, 'once': 'HfoBuo'}
+时间:2019-06-26 23:37:42,320 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-06-26 23:40:23,359 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:40:23,381 级别:INFO 消息：链接redis成功
+时间:2019-06-26 23:40:23,596 级别:DEBUG 消息：ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'code': 200, 'timestamp': 1561563619, 'data': [{'deleted_at': None, 'created_at': 1556450315, 'no': '5cb9944b402e9', 'coin': 29900, 'id': 1, 'updated_at': 1560388901, 'amount': 29900}, {'deleted_at': None, 'created_at': 1556450315, 'no': '5cb9945314b03', 'coin': 69900, 'id': 2, 'updated_at': 1561435334, 'amount': 69900}, {'deleted_at': None, 'created_at': 1556450315, 'no': '5cb9945839fac', 'coin': 149900, 'id': 3, 'updated_at': 1560388914, 'amount': 149900}, {'deleted_at': None, 'created_at': 1556450315, 'no': '5cb9945e68198', 'coin': 299900, 'id': 4, 'updated_at': 1560388920, 'amount': 299900}, {'deleted_at': None, 'created_at': 1556450315, 'no': '5cb994643b6a2', 'coin': 619900, 'id': 5, 'updated_at': 1560388929, 'amount': 619900}, {'deleted_at': None, 'created_at': 1556450315, 'no': '5cb994726b6d5', 'coin': 999900, 'id': 6, 'updated_at': 1561536521, 'amount': 1}], 'once': 'rckQQ9', 'message': 'success'}
+时间:2019-06-26 23:40:23,596 级别:DEBUG 消息：充值接口 验证完毕

@@ -1,0 +1,177 @@
+时间:2019-07-03 01:11:30,778 级别:DEBUG 消息：now_time:2019-07-03 01:11:30
+时间:2019-07-03 01:11:31,107 级别:INFO 消息：共计5个测试类
+时间:2019-07-03 01:11:31,107 级别:INFO 消息：添加线程
+时间:2019-07-03 01:11:31,116 级别:INFO 消息：开启线程:Thread-0
+时间:2019-07-03 01:11:31,116 级别:INFO 消息：开启线程:Thread-1
+时间:2019-07-03 01:11:31,122 级别:INFO 消息：开启线程:Thread-2
+时间:2019-07-03 01:11:31,139 级别:INFO 消息：开启线程:Thread-3
+时间:2019-07-03 01:11:31,146 级别:INFO 消息：开启线程:Thread-4
+时间:2019-07-03 01:11:31,415 级别:ERROR 消息：token写入失败
+时间:2019-07-03 01:11:31,417 级别:DEBUG 消息：ZY.auth.ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'once': 'aKY4FY', 'code': 200, 'message': 'success', 'data': {'code': 1234}, 'timestamp': 1562087490}
+时间:2019-07-03 01:11:31,418 级别:DEBUG 消息：ZY.auth.QBInterface_st->QBInterface_auth->test_login_token: 传参：{'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E', 'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk'} 返回结果：{'once': 'qbuptI', 'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1562087490}
+时间:2019-07-03 01:11:31,419 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 01:11:31,419 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 01:11:31,424 级别:DEBUG 消息：ZY.auth.QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'once': 'vthYsT', 'code': 401, 'message': 'access_token is valid', 'data': None, 'timestamp': 1562087490}
+时间:2019-07-03 01:11:31,424 级别:DEBUG 消息：ZY.auth.ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'once': 'B8byVm', 'code': 401, 'message': 'access_token is valid', 'data': None, 'timestamp': 1562087490}
+时间:2019-07-03 01:11:31,424 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 01:11:31,425 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-07-03 01:11:31,644 级别:DEBUG 消息：ZY.auth.ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'code': '1234', 'mobile': '15882438611', 'os': 'ios'} 返回结果：None
+时间:2019-07-03 01:11:31,644 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 01:11:31,716 级别:INFO 消息：主进行0结束
+时间:2019-07-03 01:11:31,717 级别:INFO 消息：共计0个测试类
+时间:2019-07-03 01:11:31,717 级别:INFO 消息：所有主进程结束！
+时间:2019-07-03 01:11:31,717 级别:INFO 消息：Thread-3线程结束！
+时间:2019-07-03 01:11:31,717 级别:INFO 消息：Thread-2线程结束！
+时间:2019-07-03 01:11:31,717 级别:INFO 消息：Thread-1线程结束！
+时间:2019-07-03 01:11:31,717 级别:INFO 消息：Thread-0线程结束！
+时间:2019-07-03 01:11:31,717 级别:INFO 消息：Thread-4线程结束！
+时间:2019-07-03 01:11:58,810 级别:DEBUG 消息：now_time:2019-07-03 01:11:58
+时间:2019-07-03 01:11:58,822 级别:INFO 消息：共计5个测试类
+时间:2019-07-03 01:11:58,822 级别:INFO 消息：添加线程
+时间:2019-07-03 01:11:58,832 级别:INFO 消息：开启线程:Thread-0
+时间:2019-07-03 01:11:58,832 级别:INFO 消息：开启线程:Thread-1
+时间:2019-07-03 01:11:58,844 级别:INFO 消息：开启线程:Thread-2
+时间:2019-07-03 01:11:58,856 级别:INFO 消息：开启线程:Thread-3
+时间:2019-07-03 01:11:58,877 级别:INFO 消息：开启线程:Thread-4
+时间:2019-07-03 01:11:59,077 级别:DEBUG 消息：ZY.auth.ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'timestamp': 1562087518, 'code': 401, 'once': 'jjrlgp', 'data': None, 'message': 'access_token is valid'}
+时间:2019-07-03 01:11:59,077 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-07-03 01:11:59,083 级别:DEBUG 消息：ZY.auth.QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'timestamp': 1562087518, 'code': 401, 'once': 'lv6Maw', 'data': None, 'message': 'access_token is valid'}
+时间:2019-07-03 01:11:59,084 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 01:11:59,093 级别:ERROR 消息：token写入失败
+时间:2019-07-03 01:11:59,094 级别:DEBUG 消息：ZY.auth.QBInterface_st->QBInterface_auth->test_login_token: 传参：{'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk', 'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E'} 返回结果：{'timestamp': 1562087518, 'code': 404, 'once': 'BEMlUM', 'message': '访问资源URI不存在'}
+时间:2019-07-03 01:11:59,094 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 01:11:59,099 级别:DEBUG 消息：ZY.auth.ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'code': 422, 'message': '验证码已发送，请稍后再试'}
+时间:2019-07-03 01:11:59,099 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 01:11:59,287 级别:DEBUG 消息：ZY.auth.ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'code': '1234', 'os': 'ios'} 返回结果：None
+时间:2019-07-03 01:11:59,287 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 01:11:59,290 级别:INFO 消息：主进行0结束
+时间:2019-07-03 01:11:59,290 级别:INFO 消息：共计0个测试类
+时间:2019-07-03 01:11:59,290 级别:INFO 消息：所有主进程结束！
+时间:2019-07-03 01:11:59,291 级别:INFO 消息：Thread-3线程结束！
+时间:2019-07-03 01:11:59,291 级别:INFO 消息：Thread-2线程结束！
+时间:2019-07-03 01:11:59,291 级别:INFO 消息：Thread-1线程结束！
+时间:2019-07-03 01:11:59,291 级别:INFO 消息：Thread-0线程结束！
+时间:2019-07-03 01:11:59,291 级别:INFO 消息：Thread-4线程结束！
+时间:2019-07-03 01:13:46,619 级别:DEBUG 消息：now_time:2019-07-03 01:13:46
+时间:2019-07-03 01:13:46,726 级别:INFO 消息：共计5个测试类
+时间:2019-07-03 01:13:46,726 级别:INFO 消息：添加线程
+时间:2019-07-03 01:13:46,736 级别:INFO 消息：开启线程:Thread-0
+时间:2019-07-03 01:13:46,737 级别:INFO 消息：开启线程:Thread-1
+时间:2019-07-03 01:13:46,765 级别:INFO 消息：开启线程:Thread-2
+时间:2019-07-03 01:13:46,771 级别:INFO 消息：开启线程:Thread-3
+时间:2019-07-03 01:13:46,773 级别:INFO 消息：开启线程:Thread-4
+时间:2019-07-03 01:13:46,983 级别:ERROR 消息：token写入失败
+时间:2019-07-03 01:13:46,984 级别:DEBUG 消息：ZY.auth.ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'once': 'YPhkwP', 'message': 'success', 'code': 200, 'timestamp': 1562087626, 'data': {'code': 1234}}
+时间:2019-07-03 01:13:46,984 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 01:13:46,984 级别:DEBUG 消息：ZY.auth.QBInterface_st->QBInterface_auth->test_login_token: 传参：{'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E', 'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk'} 返回结果：{'once': 'waJiWj', 'message': '访问资源URI不存在', 'code': 404, 'timestamp': 1562087626}
+时间:2019-07-03 01:13:46,984 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 01:13:46,998 级别:DEBUG 消息：ZY.auth.ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'once': 'j4kG5o', 'message': 'access_token is valid', 'code': 401, 'timestamp': 1562087626, 'data': None}
+时间:2019-07-03 01:13:46,998 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-07-03 01:13:47,015 级别:DEBUG 消息：ZY.auth.QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'once': 'QvxTAn', 'message': 'access_token is valid', 'code': 401, 'timestamp': 1562087626, 'data': None}
+时间:2019-07-03 01:13:47,015 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 01:13:47,208 级别:DEBUG 消息：ZY.auth.ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'os': 'ios', 'mobile': '15882438611', 'code': '1234'} 返回结果：None
+时间:2019-07-03 01:13:47,208 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 01:13:47,286 级别:INFO 消息：主进行0结束
+时间:2019-07-03 01:13:47,287 级别:INFO 消息：共计0个测试类
+时间:2019-07-03 01:13:47,288 级别:INFO 消息：所有主进程结束！
+时间:2019-07-03 01:13:47,289 级别:INFO 消息：Thread-3线程结束！
+时间:2019-07-03 01:13:47,289 级别:INFO 消息：Thread-2线程结束！
+时间:2019-07-03 01:13:47,289 级别:INFO 消息：Thread-1线程结束！
+时间:2019-07-03 01:13:47,289 级别:INFO 消息：Thread-0线程结束！
+时间:2019-07-03 01:13:47,289 级别:INFO 消息：Thread-4线程结束！
+时间:2019-07-03 01:14:25,494 级别:DEBUG 消息：now_time:2019-07-03 01:14:25
+时间:2019-07-03 01:14:25,505 级别:INFO 消息：共计5个测试类
+时间:2019-07-03 01:14:25,506 级别:INFO 消息：添加线程
+时间:2019-07-03 01:14:25,514 级别:INFO 消息：开启线程:Thread-0
+时间:2019-07-03 01:14:25,514 级别:INFO 消息：开启线程:Thread-1
+时间:2019-07-03 01:14:25,529 级别:INFO 消息：开启线程:Thread-2
+时间:2019-07-03 01:14:25,543 级别:INFO 消息：开启线程:Thread-3
+时间:2019-07-03 01:14:25,544 级别:INFO 消息：开启线程:Thread-4
+时间:2019-07-03 01:14:25,747 级别:DEBUG 消息：ZY.auth.ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'message': '验证码已发送，请稍后再试', 'code': 422}
+时间:2019-07-03 01:14:25,747 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 01:14:25,751 级别:DEBUG 消息：ZY.auth.QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'data': None, 'message': 'access_token is valid', 'code': 401, 'once': 'hHMFgG', 'timestamp': 1562087664}
+时间:2019-07-03 01:14:25,751 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 01:14:25,752 级别:DEBUG 消息：ZY.auth.ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'data': None, 'message': 'access_token is valid', 'code': 401, 'once': 'NxSWWZ', 'timestamp': 1562087664}
+时间:2019-07-03 01:14:25,752 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-07-03 01:14:25,763 级别:ERROR 消息：token写入失败
+时间:2019-07-03 01:14:25,764 级别:DEBUG 消息：ZY.auth.QBInterface_st->QBInterface_auth->test_login_token: 传参：{'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E', 'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk'} 返回结果：{'message': '访问资源URI不存在', 'code': 404, 'once': 'ZRGS2Y', 'timestamp': 1562087664}
+时间:2019-07-03 01:14:25,764 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 01:14:25,990 级别:DEBUG 消息：ZY.auth.ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'code': '1234', 'mobile': '15882438611', 'os': 'ios'} 返回结果：None
+时间:2019-07-03 01:14:25,991 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 01:14:25,994 级别:INFO 消息：主进行0结束
+时间:2019-07-03 01:14:25,995 级别:INFO 消息：共计0个测试类
+时间:2019-07-03 01:14:25,995 级别:INFO 消息：所有主进程结束！
+时间:2019-07-03 01:14:25,995 级别:INFO 消息：Thread-3线程结束！
+时间:2019-07-03 01:14:25,995 级别:INFO 消息：Thread-2线程结束！
+时间:2019-07-03 01:14:25,995 级别:INFO 消息：Thread-1线程结束！
+时间:2019-07-03 01:14:25,995 级别:INFO 消息：Thread-0线程结束！
+时间:2019-07-03 01:14:25,995 级别:INFO 消息：Thread-4线程结束！
+时间:2019-07-03 15:47:12,519 级别:DEBUG 消息：now_time:2019-07-03 15:47:12
+时间:2019-07-03 15:47:12,700 级别:INFO 消息：共计5个测试类
+时间:2019-07-03 15:47:12,701 级别:INFO 消息：添加线程
+时间:2019-07-03 15:47:12,733 级别:INFO 消息：开启线程:Thread-0
+时间:2019-07-03 15:47:12,743 级别:INFO 消息：开启线程:Thread-1
+时间:2019-07-03 15:47:12,780 级别:INFO 消息：开启线程:Thread-2
+时间:2019-07-03 15:47:12,781 级别:INFO 消息：开启线程:Thread-3
+时间:2019-07-03 15:47:12,826 级别:INFO 消息：开启线程:Thread-4
+时间:2019-07-03 15:47:16,888 级别:DEBUG 消息：ZY.auth.ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'os': 'ios', 'code': '1234'} 返回结果：None
+时间:2019-07-03 15:47:16,889 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 15:47:16,890 级别:DEBUG 消息：ZY.auth.QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：None
+时间:2019-07-03 15:47:16,890 级别:DEBUG 消息：ZY.auth.ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：None
+时间:2019-07-03 15:47:16,891 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-07-03 15:47:16,890 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 15:47:16,890 级别:DEBUG 消息：ZY.auth.ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：None
+时间:2019-07-03 15:47:16,890 级别:DEBUG 消息：ZY.auth.QBInterface_st->QBInterface_auth->test_login_token: 传参：{'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk', 'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E'} 返回结果：None
+时间:2019-07-03 15:47:16,893 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 15:47:16,893 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 15:47:17,141 级别:INFO 消息：主进行0结束
+时间:2019-07-03 15:47:17,141 级别:INFO 消息：共计0个测试类
+时间:2019-07-03 15:47:17,142 级别:INFO 消息：所有主进程结束！
+时间:2019-07-03 15:47:17,222 级别:INFO 消息：Thread-0线程结束！
+时间:2019-07-03 15:47:17,223 级别:INFO 消息：Thread-1线程结束！
+时间:2019-07-03 15:47:17,223 级别:INFO 消息：Thread-2线程结束！
+时间:2019-07-03 15:47:17,223 级别:INFO 消息：Thread-3线程结束！
+时间:2019-07-03 15:47:17,223 级别:INFO 消息：Thread-4线程结束！
+时间:2019-07-03 15:56:34,796 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：None
+时间:2019-07-03 15:56:34,841 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 15:57:12,621 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'os': 'ios', 'code': '1234'} 返回结果：None
+时间:2019-07-03 15:57:12,622 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 15:57:24,931 级别:DEBUG 消息：ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'once': '19vFkR', 'code': 401, 'timestamp': 1562140642, 'message': 'access_token is valid', 'data': None}
+时间:2019-07-03 15:57:24,932 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-07-03 15:58:30,956 级别:DEBUG 消息：ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'code': '1234', 'os': 'ios'} 返回结果：None
+时间:2019-07-03 15:58:30,956 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 17:29:03,953 级别:DEBUG 消息：now_time:2019-07-03 17:29:03
+时间:2019-07-03 17:29:04,135 级别:INFO 消息：共计5个测试类
+时间:2019-07-03 17:29:04,135 级别:INFO 消息：添加线程
+时间:2019-07-03 17:29:04,154 级别:INFO 消息：开启线程:Thread-0
+时间:2019-07-03 17:29:04,155 级别:INFO 消息：开启线程:Thread-1
+时间:2019-07-03 17:29:04,155 级别:INFO 消息：开启线程:Thread-2
+时间:2019-07-03 17:29:04,156 级别:INFO 消息：开启线程:Thread-3
+时间:2019-07-03 17:29:04,180 级别:INFO 消息：开启线程:Thread-4
+时间:2019-07-03 17:29:04,523 级别:DEBUG 消息：ZY.auth.QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：{'data': None, 'once': 'JLGuql', 'message': 'access_token is valid', 'timestamp': 1562146142, 'code': 401}
+时间:2019-07-03 17:29:04,523 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 17:29:04,526 级别:DEBUG 消息：ZY.auth.ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'data': {'code': 1234}, 'once': '9goEK0', 'message': 'success', 'timestamp': 1562146142, 'code': 200}
+时间:2019-07-03 17:29:04,526 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 17:29:04,531 级别:ERROR 消息：token写入失败
+时间:2019-07-03 17:29:04,533 级别:DEBUG 消息：ZY.auth.QBInterface_st->QBInterface_auth->test_login_token: 传参：{'account': '61AAF941-1385-A83E-12C0-F9A2C41B1C1E', 'pass': 'yRZN3XBoKWV5p2zm9Pf7ICDA8xQdghOk'} 返回结果：{'once': 'UXiis7', 'message': '访问资源URI不存在', 'timestamp': 1562146142, 'code': 404}
+时间:2019-07-03 17:29:04,533 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 17:29:04,584 级别:DEBUG 消息：ZY.auth.ZYrecharge_st->ZYrecharge_auth->test_auth_ZYrecharge: 传参：{} 返回结果：{'data': None, 'once': 'bh8MQT', 'message': 'access_token is valid', 'timestamp': 1562146142, 'code': 401}
+时间:2019-07-03 17:29:04,584 级别:DEBUG 消息：充值接口 验证完毕
+时间:2019-07-03 17:29:07,402 级别:DEBUG 消息：ZY.auth.ZYAccessToken_st->ZYAccessToken_auth->test_auth_ZYAccessToken: 传参：{'mobile': '15882438611', 'os': 'ios', 'code': '1234'} 返回结果：None
+时间:2019-07-03 17:29:07,403 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-07-03 17:29:07,522 级别:INFO 消息：主进行0结束
+时间:2019-07-03 17:29:07,523 级别:INFO 消息：共计0个测试类
+时间:2019-07-03 17:29:07,523 级别:INFO 消息：所有主进程结束！
+时间:2019-07-03 17:29:07,523 级别:INFO 消息：Thread-3线程结束！
+时间:2019-07-03 17:29:07,523 级别:INFO 消息：Thread-1线程结束！
+时间:2019-07-03 17:29:07,523 级别:INFO 消息：Thread-0线程结束！
+时间:2019-07-03 17:29:07,523 级别:INFO 消息：Thread-4线程结束！
+时间:2019-07-03 17:29:07,534 级别:INFO 消息：Thread-2线程结束！
+时间:2019-07-03 20:29:58,479 级别:DEBUG 消息：QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：None
+时间:2019-07-03 20:29:58,515 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 20:30:11,068 级别:DEBUG 消息：QBfriend_st->QBfriend_auth->test_auth_QBfriend: 传参：{'page': 'invite_friend'} 返回结果：None
+时间:2019-07-03 20:30:11,068 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 20:30:21,106 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：None
+时间:2019-07-03 20:30:21,107 级别:DEBUG 消息：好友邀请 验证完毕
+时间:2019-07-03 20:41:10,498 级别:DEBUG 消息：ZYlogin_st->ZYlogin_auth->test_auth_ZYlogin: 传参：{'mobile': '15882438611'} 返回结果：{'data': {'code': 1234}, 'timestamp': 1562157668, 'message': 'success', 'code': 200, 'once': 'cHyFv7'}
+时间:2019-07-03 20:41:10,508 级别:DEBUG 消息：获取短信验证码 验证完毕

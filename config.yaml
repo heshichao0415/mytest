@@ -1,0 +1,48 @@
+config:
+  url: http://twork.zhanye.api.youxin.info:44752
+#  url: http://twork.zhanye.wallet.openapi.youxin.info:42981
+#  url: http://twork.zhanye.api.youxin.info:44752
+#  dress: /v1/access_token
+  env: zytest  # api dev test release 环境
+  redis: zytest # 正式环境、测试环境
+  redis_ip: 127.0.0.1
+  port: 6379
+  message: email
+  timeout: 3
+  ip: 192.168.8.1
+  domain: 172.31.144.155  # scrm.test-report.gouuse.cn #scrm.test-report.gouuse.cn #gouusetestpublic.testgroup   #  #   # 本地测试时建议注释
+  projectName: ZY
+  EnvName: 有信展业生产环境
+  moudleName: # [contactaction, department] # 模块名称，如果为空默认跑全部模块 （支持多个模块的指定，多个时用列表）
+  matching: '*_st.py'   # 正则匹配用例
+  thread_count: 10  # 一次启动多少个线程
+
+
+log:
+  level: 10  # log级别（NOTSET, DEBUG, INFO, WARNING, ERROR, CRITICAL对应的值分别为：0,10,20,30,40,50）
+  stdout: true  # true:开启控制台日志输出， false关闭控制台日志输出
+  file_log: flase  #文件里输入日志，flase代表不输入
+
+mysql:
+  ip: 192.168.233.130
+  username: root
+  pwd: 123456
+  TESTDB: mytest
+
+sql:
+  search_results: SELECT * FROM emp WHERE sal>1000
+
+data: {  # 测试报告基础信息
+    'report_title': '接口测试报告',
+    'theme': '接口数据统计',
+    'env_sign': '',
+    'report_table_title': ['项目名称', '用例编号', '用例名称', '接口地址', '接口方法','响应时间(秒)', '测试结果', '详细信息'],
+    'report_cases': {'all_cases': [],
+        'right_cases': [],
+        'fail_cases': [],
+        'error_cases': [],
+        'untreaded_cases': [],
+    },
+    'test_info': [],
+}
+

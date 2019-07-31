@@ -1,0 +1,16 @@
+时间:2019-06-20 21:46:07,631 级别:INFO 消息：链接redis成功
+时间:2019-06-20 21:46:07,632 级别:INFO 消息：链接redis成功
+时间:2019-06-20 21:46:08,928 级别:DEBUG 消息：QBInterface->QBInterface_auth->test_login_token: 传参：{'account': '97DC75E8-A681-09F1-0840-86C0173DAB73', 'pass': 'wtLWbHrYlzAjIcpe632NKJiDPhV58n4B'} 返回结果：{'code': 200, 'message': '登录成功', 'token': '6JeU4VRsBq4UodnWB6bLd6dUJ2MD0pgSl0I2IosPMeLHaubSr7T4g5QQ67KGxRuZ'}
+时间:2019-06-20 21:46:08,929 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-20 21:46:50,802 级别:INFO 消息：链接redis成功
+时间:2019-06-20 21:46:50,802 级别:INFO 消息：链接redis成功
+时间:2019-06-20 21:46:50,929 级别:DEBUG 消息：QBInterface->QBInterface_auth->test_login_token: 传参：{'account': '97DC75E8-A681-09F1-0840-86C0173DAB73', 'pass': 'wtLWbHrYlzAjIcpe632NKJiDPhV58n4B'} 返回结果：{'token': 'Tc9q8YYA7iqWcaOuMVK2EFaiNDNq6N3W8kbYFaO4rzR8IvvEO1ipzZcvtK2KeMpd', 'code': 200, 'message': '登录成功'}
+时间:2019-06-20 21:46:50,930 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-20 21:47:21,168 级别:INFO 消息：链接redis成功
+时间:2019-06-20 21:47:21,168 级别:INFO 消息：链接redis成功
+时间:2019-06-20 21:47:21,419 级别:DEBUG 消息：QBInterface->QBInterface_auth->test_login_token: 传参：{'account': '97DC75E8-A681-09F1-0840-86C0173DAB73', 'pass': 'wtLWbHrYlzAjIcpe632NKJiDPhV58n4B'} 返回结果：{'code': 200, 'token': '7bkgy7pCJGsY2P1YMJKKtUIx2i96N524xXj2n1V2dZD3fYipmJxXF7eUc4sGWFDb', 'message': '登录成功'}
+时间:2019-06-20 21:47:21,419 级别:DEBUG 消息：获取token 验证完毕
+时间:2019-06-20 21:48:57,979 级别:INFO 消息：链接redis成功
+时间:2019-06-20 21:48:57,979 级别:INFO 消息：链接redis成功
+时间:2019-06-20 21:48:58,112 级别:DEBUG 消息：QBInterface->QBInterface_auth->test_login_token: 传参：{'pass': 'wtLWbHrYlzAjIcpe632NKJiDPhV58n4B', 'account': '97DC75E8-A681-09F1-0840-86C0173DAB73'} 返回结果：{'message': '登录成功', 'code': 200, 'token': 'zu8cHTG5ZT2Dl785q092JRi3hzewiYOUernqi1RhAaxdKEhyQd7jLuE1yeWDaj55'}
+时间:2019-06-20 21:48:58,112 级别:DEBUG 消息：获取token 验证完毕
