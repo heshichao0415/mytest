@@ -1,7 +1,7 @@
 from selenium import webdriver
 import unittest
 import time
-class BDtest(unittest.TestCase):
+class TDtest(unittest.TestCase):
     def setUp(self):
         self.url = 'https://www.baidu.com'
         self.dr = webdriver.Chrome()
