@@ -12,7 +12,6 @@ class Myredis(object):
         redis_ip = MyYaml().config('redis_ip')
         redis_port = MyYaml().config('port')
         pool = redis.ConnectionPool(host=redis_ip, port=redis_port, decode_responses=True, db=0)
-        # Loging().info('链接redis成功')
         self.r = redis.Redis(connection_pool=pool)
         # Loging().info('链接redis成功')
         self.env = MyYaml().config('env')

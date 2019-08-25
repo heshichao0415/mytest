@@ -36,3 +36,17 @@ empno=7844, ename=TURNER, job=SALESMAN, mgr=7698, hiredate=1981-09-08, sal=1500.
 empno=7876, ename=ADAMS, job=CLERK, mgr=7788, hiredate=1987-05-23, sal=1100.0, common=None, deptno=20
 empno=7902, ename=FORD, job=ANALYST, mgr=7566, hiredate=1981-12-03, sal=3000.0, common=None, deptno=20
 empno=7934, ename=MILLER, job=CLERK, mgr=7782, hiredate=1982-01-23, sal=1300.0, common=None, deptno=10
+empno=1, ename=SCRM, job=test_login_saction, mgr=正常登陆, hiredate=/api/auth_center/v1/login, sal=post, common=1, deptno=详细
+empno=2, ename=SCRM, job=test_appGetContactsNum, mgr=app获取联系人列表, hiredate=/api/scrm/appGetContactsNum, sal=post, common=1, deptno=详细
+empno=3, ename=SCRM, job=test_actionsStatistics, mgr=行为分布, hiredate=/api/scrm/contactAss, sal=post, common=0, deptno=详细
+empno=4, ename=SCRM, job=test_contactDetail, mgr=联系人详情, hiredate=/api/scrm/contactDetail, sal=get, common=1, deptno=详细
+empno=5, ename=SCRM, job=test_contactDistribute, mgr=联系人分配, hiredate=/api/scrm/contactDistribute, sal=post, common=1, deptno=详细
+empno=6, ename=SCRM, job=test_contactMerge, mgr=联系人合并, hiredate=/api/scrm/contactMerge, sal=post, common=1, deptno=详细
+empno=7, ename=SCRM, job=test_contactShare, mgr=联系人共享, hiredate=/api/scrm/contactShare, sal=get, common=1, deptno=详细
+empno=1, ename=SCRM, job=test_login_saction, mgr=正常登陆, hiredate=/api/auth_center/v1/login, sal=post, common=1, deptno=详细
+empno=2, ename=SCRM, job=test_appGetContactsNum, mgr=app获取联系人列表, hiredate=/api/scrm/appGetContactsNum, sal=post, common=1, deptno=详细
+empno=3, ename=SCRM, job=test_actionsStatistics, mgr=行为分布, hiredate=/api/scrm/contactAss, sal=post, common=0, deptno=详细
+empno=4, ename=SCRM, job=test_contactDetail, mgr=联系人详情, hiredate=/api/scrm/contactDetail, sal=get, common=1, deptno=详细
+empno=5, ename=SCRM, job=test_contactDistribute, mgr=联系人分配, hiredate=/api/scrm/contactDistribute, sal=post, common=1, deptno=详细
+empno=6, ename=SCRM, job=test_contactMerge, mgr=联系人合并, hiredate=/api/scrm/contactMerge, sal=post, common=1, deptno=详细
+empno=7, ename=SCRM, job=test_contactShare, mgr=联系人共享, hiredate=/api/scrm/contactShare, sal=get, common=1, deptno=详细

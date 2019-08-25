@@ -27,10 +27,10 @@ mysql:
   ip: 192.168.233.130
   username: root
   pwd: 123456
-  TESTDB: mytest
+  TESTDB: py_django
 
 sql:
-  search_results: SELECT * FROM emp WHERE sal>1000
+  search_results: SELECT * FROM sign_detail
 
 data: {  # 测试报告基础信息
     'report_title': '接口测试报告',

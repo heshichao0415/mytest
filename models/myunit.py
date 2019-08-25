@@ -95,9 +95,8 @@ class mytest(unittest.TestCase):
             time_count=getTimeCount(str(self.data[-1])),     #接口响应时间
         )
         Response = json.dumps(Response, indent=4, ensure_ascii=False)
-        # print(Response)
         #保存redis
-        redis.case_data([self.case_info, Response])
+        redis.case_data([self.case_info, Response])                             #测试数据缓存redis
         self.log.debug(
             '%s->%s->%s: 传参：%s 返回结果：%s' % (
                 self.module,

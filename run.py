@@ -331,7 +331,7 @@ class AllResult(object):
 
 if __name__ == '__main__':
     AllResult().run_all_case()
-    # AllResult().results_collected()
+
 
 
 
