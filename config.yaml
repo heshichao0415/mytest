@@ -24,10 +24,10 @@ log:
   file_log: flase  #文件里输入日志，flase代表不输入
 
 mysql:
-  ip: 192.168.233.130
+  ip: 172.16.244.129
   username: root
   pwd: 123456
-  TESTDB: py_django
+  TESTDB: guest
 
 sql:
   search_results: SELECT * FROM sign_detail

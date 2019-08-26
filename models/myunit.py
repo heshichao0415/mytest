@@ -59,17 +59,19 @@ class mytest(unittest.TestCase):
         self.case_name = []
         for i in self.datas:
             if i['className'] == self.className:
-                self.data.append(i['url'])  #0
+                self.data.append(i['url'])  # api地址   0
                 for j in i['funName']:
                     for k in j.keys():
                         if k == self.case_info:
                             self.data.append(j[self.case_info]['bar'])  #参数   1
                             self.data.append(j[self.case_info]['result']) #预期结果    2
-                            self.data.append(j[self.case_info]['test_data']) #预期结果   3
+                            self.data.append(j[self.case_info]['mode'])       #请求方式   3
+                            self.data.append(j[self.case_info]['test_data'])   #接口时间   -1
                             self.case_name.append(i['name'])
         if not isinstance(self.data[1], list):
             self.data[1] = dict(self.data[1], **self.key_list)
         self.url = MyYaml().config('url') + self.data[0]
+
         try:
             token = read_ini(node='session', child='access_token')    #重配置文件获取token
             # print(token)
@@ -88,14 +90,18 @@ class mytest(unittest.TestCase):
             msg = ''
 
         Response = results(
+            name=self.case_name[0],
             expected=self.data[2][0],
             actual=parameter,
+            method=self.data[3],
+            address=self.data[0],
             parameter=self.data[1],
             Results=self.result,
             time_count=getTimeCount(str(self.data[-1])),     #接口响应时间
         )
         Response = json.dumps(Response, indent=4, ensure_ascii=False)
         #保存redis
+        print(Response)
         redis.case_data([self.case_info, Response])                             #测试数据缓存redis
         self.log.debug(
             '%s->%s->%s: 传参：%s 返回结果：%s' % (
