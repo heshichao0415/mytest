@@ -22,7 +22,7 @@ class MyYaml:
     @property
     def ALLAPPYaml(self):
         """读取yaml里面的所有内容"""
-        APPyamlpath = os.path.join(path, 'ZY', '{}'.format(self.name))
+        APPyamlpath = os.path.join(path, 'Case', '{}'.format(self.name))
         f = open(APPyamlpath, encoding=self.encoding)
         data = yaml.load(f, Loader=yaml.FullLoader)
         f.close()

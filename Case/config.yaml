@@ -1,0 +1,119 @@
+interface:
+  XY:  # 模块
+    - url: /api/v1/xyhw/Login
+      name: 用户登录授权           # 接口注释
+      className: Login_XY   # 接口类名
+      funName:
+      - test_auth_Login: {  # 接口方法名
+        bar: {
+              'openID1': 'ljabcd12312543234231666',
+              'openID2': 'ljeiouweirndkfjafd21666',
+              'devType': '2',
+              'sn': 'ljsn012345678000',
+              'mac': '00:0c:29:16:06:91',
+              'deviceName': '华为',
+              'deviceBrand': '荣耀',
+              'devSwVer': 'v0.2.5',
+              'devConType': '1',
+              'accHistoryNum': '10',
+              'time': '156897156',
+              'sign': 'abcdesa312e1'
+          },
+        test_data: {},     #时间
+        case_name: 登录授权,
+        result: [200],         # 预期结果
+        mode: post,          # 请求类型
+        re_bar: data,        # 返回
+      }
+    - url: /api/v1/xyhw/GetNodeList
+      name: 获取节点列表     # 接口注释
+      className: GetNodeList_XY  # 接口类名
+      funName:
+      - test_auth_GetNodeList: {  # 接口方法名
+        bar: {
+               'userid': 1650000000,
+               'gameId': 23646,
+               'isp2p': 1,
+               'fouter': 1,
+               'time': 156897156,
+               'sign': 'abcdesa312e1'
+        },
+        test_data: {},
+        case_name: 获取节点列表,
+        result: [0],      # 预期结果
+        mode: post,       # 请求方式
+        re_bar: data,     # 请求参数
+        }
+    - url: /api/v1/xyhw/GetGameList
+      name: 获取游戏列表接口   # 接口注释
+      className: GetGameList_XY  # 接口类名
+      funName:
+      - test_auth_GetGameList: {  # 接口方法名
+        bar: {
+               'openID1': '',
+               'openID2': '',
+               'top': '',
+               'time': '',
+               'sign': ''
+        },
+        test_data: {},
+        case_name: 获取游戏列表,
+        result: [200],      # 预期结果
+        mode: post,       # 请求方式
+        re_bar: data,     # 请求参数
+        }
+    - url: /api/v1/xyhw/GetRouteList
+      name: 获取游戏路由表接口  # 接口注释
+      className: GetRouteList_XY   # 接口类名
+      funName:
+      - test_auth_GetRouteList: {  # 接口方法名
+        bar: {
+               'userid': '',
+               'gameId': '',
+               'time': '',
+               'sign': ''
+        },
+        test_data: {},
+        case_name: 获取游戏加速路由信息,
+        result: [200],         # 预期结果
+        mode: post,          # 请求类型
+        re_bar: data,        # 请求参数
+      }
+    - url: /api/v1/xyhw/GetNodeList
+      name: 错误传参获取节点列表     # 接口注释
+      className: GetNodeList_XY  # 接口类名
+      funName:
+      - test_auth_GetNodeList: {  # 接口方法名
+        bar: {
+               'userid': 1650000000,
+               'gameId': 23646,
+               'isp2p': 0,
+               'fouter': 1,
+               'time': 156897156,
+               'sign': 'abcdesa312e1'
+        },
+        test_data: {},
+        case_name: 获取节点列表,
+        result: [0],      # 预期结果
+        mode: post,       # 请求方式
+        re_bar: data,     # 请求参数
+        }
+    - url: /api/v1/xyhw/GetNodeList
+      name: 获取节点列表     # 接口注释
+      className: GetNodeList_XY  # 接口类名
+      funName:
+      - test_auth_GetNodeList: {  # 接口方法名
+        bar: {
+               'userid': 1650000000,
+               'gameId': 23646,
+               'isp2p': 1,
+               'fouter': 1,
+               'time': 156897156,
+               'sign': 'abcdesa312e1'
+        },
+        test_data: {},
+        case_name: 获取节点列表,
+        result: [0],      # 预期结果
+        mode: post,       # 请求方式
+        re_bar: data,     # 请求参数
+        }

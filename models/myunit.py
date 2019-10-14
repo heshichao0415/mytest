@@ -29,7 +29,7 @@ def getTimeCount(time):
     return _time
 
 
-class mytest(unittest.TestCase):
+class mytest(unittest.TestCase):                                     #可参数化的类
     def __init__(self, methodName='runTest', param=None):
         super(mytest, self).__init__(methodName)
         self.param = param
@@ -56,6 +56,7 @@ class mytest(unittest.TestCase):
         self.key = self.className.split('_')[1]
         self.datas = MyYaml().interface_data[self.key]
         self.data = []
+        self.dataall = []
         self.case_name = []
         for i in self.datas:
             if i['className'] == self.className:
@@ -68,24 +69,28 @@ class mytest(unittest.TestCase):
                             self.data.append(j[self.case_info]['mode'])       #请求方式   3
                             self.data.append(j[self.case_info]['test_data'])   #接口时间   -1
                             self.case_name.append(i['name'])
+                            self.dataall.append(self.data)
+                            # print(self.dataall)
+                            # del self.data[-5:]
+                            # print(self.data)
+        # print(self.dataall)
         if not isinstance(self.data[1], list):
             self.data[1] = dict(self.data[1], **self.key_list)
         self.url = MyYaml().config('url') + self.data[0]
 
         try:
             token = read_ini(node='session', child='access_token')    #重配置文件获取token
-            # print(token)
         except Exception:
             token = '0'
         self.headers = {'Authorization': 'Bearer{}'.format(token)}   #请求头
 
     def tearDown(self):
         try:
-            parameter = self.result['code']
+            parameter = self.result['status']
         except Exception:
             parameter = ''
         try:
-            msg = self.result['message']
+            msg = self.result['msg']
         except Exception:
             msg = ''
 
@@ -104,20 +109,26 @@ class mytest(unittest.TestCase):
         print(Response)
         redis.case_data([self.case_info, Response])                             #测试数据缓存redis
         self.log.debug(
-            '%s->%s->%s: 传参：%s 返回结果：%s' % (
+            '%s->%s->%s: 传参：%s' % (
                 self.module,
                 self.className,
                 self.case_info,
                 self.data[1],
-                self.result
             )
         )
+        self.log.debug('%s->%s->%s: 返回结果：%s' % (
+            self.module,
+            self.className,
+            self.case_info,
+            self.result,
+        )
+            )
         self.log.debug('{} 验证完毕'.format(self.case_name[0]))
-        self.assertEqual(parameter, self.data[2][0], msg=msg)
+        self.assertEqual(self.data[2][0], parameter, msg=msg)              #断言
         print("用例执行结束。。。")
 
-    @staticmethod
-    def parametrize(testcase_klass, param=None):
+    @staticmethod                #装饰静态方法、静态方法调用无需实例化
+    def parametrize(testcase_klass, param=None):                                 #参数化方法
         """ Create a suite containing all tests taken from the given
             subclass, passing them the parameter 'param'.
         """

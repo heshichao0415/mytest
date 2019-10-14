@@ -4,7 +4,6 @@ import unittest
 import time
 import json
 import sys
-import requests
 import threading
 from read_writeyaml import MyYaml
 from myloging import Loging
@@ -13,9 +12,8 @@ from models.myunit import mytest
 from models.myunit_per import ReadYaml
 from models.MyRedis import Myredis as redis
 from configpath import getpath
-import HTMLTestRunner
-pathh = os.path.join(getpath(), 'result', 'report.html')
 
+pathh = os.path.join(getpath(), 'result', 'report.html')
 
 
 log = Loging()
@@ -51,12 +49,9 @@ class RunAllClass(object):
         suite = unittest.TestSuite()
         suite.addTest(mytest.parametrize(moudleName, param=None))
         runner = unittest.TextTestRunner(verbosity=1)   #执行测试用例集 ,,verbosity 有 0 1 2 三个级别，verbosity=2 的输出最详细
-        # fp = open(pathh, 'wb')
-        # runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='接口自动化测试报告', description='')
         result = runner.run(suite)
-        # print(result)
-        if result.failures:
-            failures_list = []
+        if result.failures:                   #失败用例
+            failures_list = []                #失败用例列表
             for i in result.failures:
                 case_id = str(i[0]).split('(')[0]
                 case_info = str(i[1])
@@ -94,7 +89,7 @@ class AllResult(object):
         self.moudleName = MyYaml().config('moudleName')    # all
         if self.moudleName is None:
             self.moudleName = ''
-        self.matching = MyYaml().config('matching')
+        self.matching = MyYaml().config('matching')        #正则
         self.ip = MyYaml().config('ip')
         self.domain = MyYaml().config('domain')     #本地测试环境
         self.app_config = MyYaml().interface_data
@@ -112,47 +107,47 @@ class AllResult(object):
             moudleName = MyYaml().config('moudleName')
             project_names = os.path.join(path,'{}'.format(self.projectName))
             dir_list = os.listdir(project_names)  #os.listdir(project_names):列出paoject_names下的目录和文件
-            moudle_list = []  #一级目录
+            moudle_list = []  #一级目录, XY
             all_import_class = []  #所有要导入的测试类
-            all_moudle = []
-            if moudleName is None:
+            all_moudle = []     #所有的类名
+            if moudleName is None:         #运行所有模块
                 for i in dir_list:
                     if '.' not in i and '__' not in i:
-                        if os.path.exists(project_names + '/{}/__init__.py'.format(i)):
+                        if os.path.exists(project_names + '/{}/__init__.py'.format(i)):    #判断路径是否存在
                             moudle_list.append(i)
             else:
-                if os.path.exists(project_names + '/{}/__init__.py'.format(moudleName)):
+                if os.path.exists(project_names + '/{}/__init__.py'.format(moudleName)):     #运行指定模块
                     moudle_list.append(moudleName)
-            for a in moudle_list:
+            for a in moudle_list:           #模块
                 dir_name = project_names + '\\' + a
-                dir_list = os.listdir(dir_name)
+                dir_list = os.listdir(dir_name)      #os.listdir()用于返回指定文件夹中包含的文件或文件夹列表
                 for b in dir_list:
-                    if self.matching.split('_')[1] in b:
-                        import_name = '{}_{}'.format(b.split('_')[0], a)
-                        all_import_class.append('from.{}.{} import {}'.format(a, b.split('.')[0], import_name))
+                    if self.matching.split('_')[1] in b:    #筛选出测试用例
+                        import_name = '{}_{}'.format(b.split('_')[0], a)           #类名
+                        all_import_class.append('from.{}.{} import {}'.format(a, b.split('.')[0], import_name))   #所有要导入的测试类
                         all_import_class.append('\n')
                         all_moudle.append(import_name)
             init_file_py = project_names + '/__init__.py'
             if os.path.exists(init_file_py):        #os.path.exists(init_file_py):判断是否存在文件或目录init_file_py
                 os.remove(init_file_py)     #os.remove(file):删除一个文件
-            all_moudle = str(all_moudle)
+            all_moudle = str(all_moudle)   #类名
             import re
             all_moudle = re.sub("'", '', all_moudle)    #sub()：替换
-            with open(init_file_py, 'w') as f:
+            with open(init_file_py, 'w') as f:         #测试类写入__init__.py文件
                 f.writelines(all_import_class)
                 f.write('moudle_list = {}'.format(all_moudle))
                 f.write('\n')
                 f.close()
             return all_moudle, moudle_list   #all_moudle=所有类名（模块），moudle_list=ZY包下的所有包
-        self.all_moudle, self.moudle_list = moudle_name()
+        self.all_moudle, self.moudle_list = moudle_name()         #调用并赋值
 
     def run_class(self):
-        from ZY import moudle_list
+        from Case import moudle_list
         redis.all_module(moudle_list)     #存进redis
         #创建新线程
         count = 0
         numbers = 0
-        if len(redis.read_moudle('all_module')) != 0:    #计算长度，len长度
+        if len(redis.read_moudle('all_module')) != 0:    #计算长度，len长度，所有的测试用例多少个
             while True:       #循环
                 log.info('共计{}个测试类'.format(len(redis.read_moudle('all_module'))))
                 if len(redis.read_moudle('all_module')) != 0:
@@ -162,7 +157,7 @@ class AllResult(object):
                         moudle = redis.rpop('all_module', MyYaml().config('thread_count'))
                         moudle_per = ReadYaml().return_module(moudle_list, moudle)
                         for i in moudle_per:
-                            threads.append(myThread(count, "Thread-{}".format(count), i, 0))
+                            threads.append(myThread(count, "Thread-{}".format(count), i, 0))    #一次性开启的线程数量
                             count += 1
                     except Exception:
                         pass
@@ -178,8 +173,8 @@ class AllResult(object):
                             t.join()    #等待线程、子线程完毕后关闭主线程
                         except Exception:
                             pass
-                    log.info('主进行{}结束'.format(numbers))
-                    numbers += 1
+                    log.info('主进程{}结束'.format(numbers))
+                    numbers += 1                   #主进程
                 else:
                     log.info('所有主进程结束！')
                     break
@@ -289,7 +284,7 @@ class AllResult(object):
         return dmps, all_times
 
     def run_all_case(self):
-        now_time = time.strftime('%Y-%m-%d %H:%M:%S')
+        now_time = time.strftime('%Y-%m-%d %H:%M:%S')             #获取时间并转换为易读格式time.strftime
         log.debug('now_time:{}'.format(now_time))
         startTime = time.time()
         self.run_class()  # 运行所有模块

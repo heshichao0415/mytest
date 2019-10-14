@@ -1,9 +1,10 @@
 config:
-  url: http://twork.zhanye.api.youxin.info:44752
+  url: http://118.123.165.10:9099           #华为路由器加速方案
 #  url: http://twork.zhanye.wallet.openapi.youxin.info:42981
 #  url: http://twork.zhanye.api.youxin.info:44752
 #  dress: /v1/access_token
-  env: zytest  # api dev test release 环境
+#  env: zytest  # api dev test release 环境
+  env: xytest
   redis: zytest # 正式环境、测试环境
   redis_ip: 127.0.0.1
   port: 6379
@@ -11,11 +12,11 @@ config:
   timeout: 3
   ip: 192.168.8.1
   domain: 172.31.144.155  # scrm.test-report.gouuse.cn #scrm.test-report.gouuse.cn #gouusetestpublic.testgroup   #  #   # 本地测试时建议注释
-  projectName: ZY
-  EnvName: 有信展业生产环境
+  projectName: Case
+  EnvName: 华为路由器加速           #有信展业生产环境
   moudleName: # [contactaction, department] # 模块名称，如果为空默认跑全部模块 （支持多个模块的指定，多个时用列表）
   matching: '*_st.py'   # 正则匹配用例
-  thread_count: 10  # 一次启动多少个线程
+  thread_count: 2  # 一次启动多少个线程
 
 
 log:

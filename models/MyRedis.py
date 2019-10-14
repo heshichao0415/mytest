@@ -174,7 +174,7 @@ class Myredis(object):
             return_list = []
             for i in data:
                 return_list.append(i)
-            return return_list
+            return return_list                        #返回测试类的列表
         else:
             return data
 
