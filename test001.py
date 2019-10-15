@@ -64,8 +64,3 @@
 #     a.connect_mysql()
 #     a.main_redis()
 
-import re
-
-a = "['/api/v1/xyhw/GetGameList', {'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''}, [200], 'post', {}]"
-c = re.sub("openID1': ''", "openID1': 'sfsfkh'", a)
-print(c)

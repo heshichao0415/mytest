@@ -18,14 +18,14 @@ class XY_hw():
         self.asn = result['data']['asn']
         return data
 
-    def test_get_data1(self):
+    def test_get_data1(self):                         #原始网段接口请求
         self.url1 = self.url1 + str(self.asn)
         r = requests.get(url=self.url1)
         result = r.text
         return result
 
     def test_hw(self):
-        sum = 0
+        sum = 0           #合并后的网段IP个数
         sum2 = 0          #包含的原始网段个数
         sum3 = 0          #不包含的原始网段个数
         cls3 = []         #包含的网段
@@ -49,6 +49,7 @@ class XY_hw():
                 cls2.append(a)
                 c += 1
             if c == len(list):
+                # print(cls2)
                 if True in cls2:
                     cls3.append(i)
                     sum2 += 1
@@ -58,9 +59,13 @@ class XY_hw():
                     sum3 += 1
                     log.info('原始网段%s没有包含在在合并网段中' % i)
             del cls2[0:]
+
         log.info('原始网段个数为：%s，合并后的网段个数为：%s，原始网段包含在合并网段中的个数：%s，'
                  '原始网段没有包含在合并网段中的个数为：%s，包含的原始网段为：%s，'
                  '不包含的原始网段为：%s' % (len(cls1), len(list), sum2, sum3, cls3, cls4))
+
+        print('原始网段为：%s' % list)
+        print('合并后的网段为:%s' % cls1)
         #网段包含的所有的IP
         for i in list:
             if int(i[-2:]) == 24:      #需要舍弃的网段参数

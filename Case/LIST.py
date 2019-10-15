@@ -147,10 +147,11 @@ for i in a:
             sum2 += 1
             log.info('原始网段%s没有包含在在合并网段中' % i)
     del cls[0:]
+print(cls)
 log.info('匹配成功的个数为：%s，匹配失败的个数为：%s，原始网段为：%s' % (sum1, sum2,a))
-
-
 print(cls)
 
-
+a = 'safasfasffa'
+c = random.choice(a)
+print(c)
 
