@@ -64,8 +64,10 @@ class XY_hw():
                  '原始网段没有包含在合并网段中的个数为：%s，包含的原始网段为：%s，'
                  '不包含的原始网段为：%s' % (len(cls1), len(list), sum2, sum3, cls3, cls4))
 
+        print('===============')
         print('原始网段为：%s' % list)
         print('合并后的网段为:%s' % cls1)
+        print('===============')
         #网段包含的所有的IP
         for i in list:
             if int(i[-2:]) == 24:      #需要舍弃的网段参数

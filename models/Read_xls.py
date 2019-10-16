@@ -29,30 +29,29 @@ class Case:
 #                 cls.append(sheet.row_values(i))
 #         return cls
 
-
+class readExcel():
     def get_xls(self, xls_name, sheet_name):
-        case = []
+        cases = []
         xlspath = os.path.join(getpath(), "Case_data", xls_name)
         file = openpyxl.load_workbook(xlspath)
         sheet = file[sheet_name]
         rows = sheet.max_row
-
         for i in range(2, rows+1):
+            case = Case()
             case_id = sheet.cell(row=i, column=1).value
             case_name = sheet.cell(row=i, column=2).value
             case_method = sheet.cell(row=i, column=3).value
             case_url = sheet.cell(row=i, column=4).value
             case_datas = sheet.cell(row=i, column=5).value
-            case_expected = sheet.cell(row=i, column=7).value
-            case.append(case_id)
-            case.append(case_name)
-            case.append(case_method)
-            case.append(case_url)
-            case.append(case_datas)
-            case.append(case_expected)
-        print(case)
-        return case
-
-
+            case_expected = sheet.cell(row=i, column=6).value
+            case.id = case_id
+            case.name = case_name
+            case.method = case_method
+            case.url = case_url
+            case.datas = case_datas
+            case.expected = case_expected
+            cases.append(case)
+        file.close()
+        return cases
 if __name__ == "__main__":
     readExcel().get_xls('case_xy_huawei.xlsx', 'Sheet1')
