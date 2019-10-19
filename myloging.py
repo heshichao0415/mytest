@@ -30,7 +30,6 @@ class Loging:
             self.console_handler = logging.StreamHandler(sys.stdout)  # 控制台日志
             self.console_handler.setFormatter(formatter)  # 也可以直接给formatter赋值
             self.logger.addHandler(self.console_handler)  # 为logger添加的日志处理器
-
             self.logger.addHandler(file_handler)  # 为logger添加的日志处理器
             self.logger.setLevel(level)  # log级别（NOTSET, DEBUG, INFO, WARNING, ERROR, CRITICAL对应的值分别为：0,10,20,30,40,50）
 

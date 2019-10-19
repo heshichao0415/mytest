@@ -2,7 +2,8 @@ import os
 from configpath import getpath
 from xlrd import open_workbook
 import openpyxl
-
+import json
+import xlwt
 
 class Case:
     def __init__(self):
@@ -20,14 +21,25 @@ class Case:
 class readExcel():
     def get_xls(self, xls_name, sheet_name):
         cls = []
+        cls1 = []          #实验列表
         xlsPath = os.path.join(getpath(), "Case_data", xls_name)
-        file = open_workbook(xlsPath, 'r')
-        sheet = file.sheet_by_name(sheet_name)
+        file = open_workbook(xlsPath, 'r')                  #打开工作簿
+        sheet = file.sheet_by_name(sheet_name)              #通过名字打开工作簿
         rows = sheet.nrows
         for i in range(rows):
             if sheet.row_values(i)[0] != 'case_id':
                 cls.append(sheet.row_values(i))
+        # a = cls[2][2]
+        # print(a)
+        # b = json.dumps(a)
+        # print(b)
+        # e = b[1:-2].split("\\n")          #文本类型转换为列表
+        # print(e)
         return cls
+
+
+
+
 
 # class readExcel():
 #     def get_xls(self, xls_name, sheet_name):
@@ -54,4 +66,4 @@ class readExcel():
 #         file.close()
 #         return cases
 if __name__ == "__main__":
-    readExcel().get_xls('case_xy_huawei.xlsx', 'Sheet2')
+    readExcel().get_xls('case_xy_huawei.xlsx', 'Sheet3')
