@@ -29,12 +29,6 @@ class readExcel():
         for i in range(rows):
             if sheet.row_values(i)[0] != 'case_id':
                 cls.append(sheet.row_values(i))
-        # a = cls[2][2]
-        # print(a)
-        # b = json.dumps(a)
-        # print(b)
-        # e = b[1:-2].split("\\n")          #文本类型转换为列表
-        # print(e)
         return cls
 
     def write_xls(self, xls_name, sheet_name):
