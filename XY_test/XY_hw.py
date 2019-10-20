@@ -129,7 +129,7 @@ class XY_hw():
                     log.error('原始网段%s没有包含在在合并网段中' % i)
             del cls2[0:]
         end_time = datetime.datetime.now()
-        seconds = (end_time - start_time).seconds
+        seconds = (end_time - start_time).seconds          #second 忽略天 只看时分秒,,total_seconds() 真正的时间差 包含天
         start = start_time.strftime("%Y-%m-%d %H:%M:%S")
         end = end_time.strftime("%Y-%m-%d %H:%M:%S")
         minutes = seconds // 60

@@ -22,8 +22,8 @@ class readExcel():
     def get_xls(self, xls_name, sheet_name):
         cls = []
         cls1 = []          #实验列表
-        xlsPath = os.path.join(getpath(), "Case_data", xls_name)
-        file = open_workbook(xlsPath, 'r')                  #打开工作簿
+        self.xlsPath = os.path.join(getpath(), "Case_data", xls_name)
+        file = open_workbook(self.xlsPath, 'r')                  #打开工作簿
         sheet = file.sheet_by_name(sheet_name)              #通过名字打开工作簿
         rows = sheet.nrows
         for i in range(rows):
@@ -37,7 +37,18 @@ class readExcel():
         # print(e)
         return cls
 
-
+    def write_xls(self, xls_name, sheet_name):
+        list = self.get_xls('case_xy_huawei.xlsx', 'Sheet5')
+        self.xlsPath = os.path.join(getpath(), "Case_data", xls_name)
+        wb = openpyxl.load_workbook(self.xlsPath)
+        ws = wb[sheet_name]
+        for i in list:
+            ws.cell(row=int(i[0]), column=1).value = int(i[0])
+            ws.cell(row=int(i[0]), column=2).value = i[1]
+        wb.save(self.xlsPath)
+        # ws['A1'] = 24
+        # ws.cell(row=1, column=3).value = 123
+        # wb.save(self.xlsPath)
 
 
 
@@ -66,4 +77,4 @@ class readExcel():
 #         file.close()
 #         return cases
 if __name__ == "__main__":
-    readExcel().get_xls('case_xy_huawei.xlsx', 'Sheet3')
+    readExcel().write_xls('case_xy_huawei.xlsx', 'Sheet6')

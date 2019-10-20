@@ -69,7 +69,7 @@ class Mysql_db():
                 curs = self.connection.cursor()
                 curs.execute(sql)
                 self.connection.commit()
-                log.info('数据库%s插入成功' % self.TESTDB)
+                log.info('数据库%s数据插入成功' % self.TESTDB)
 
             except Exception as msgs:
                 print('执行sql语句失败！error:', msgs)

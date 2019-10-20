@@ -15,7 +15,6 @@ from configpath import getpath
 
 pathh = os.path.join(getpath(), 'result', 'report.html')
 
-
 log = Loging()
 redis = redis()
 path = getpath()
@@ -49,9 +48,9 @@ class RunAllClass(object):
         suite = unittest.TestSuite()
         suite.addTest(mytest.parametrize(moudleName, param=None))
         runner = unittest.TextTestRunner(verbosity=1)   #执行测试用例集 ,,verbosity 有 0 1 2 三个级别，verbosity=2 的输出最详细
-        result = runner.run(suite)
-        if result.failures:                   #失败用例
-            failures_list = []                #失败用例列表
+        result = runner.run(suite)           #失败用例列表
+        if result.failures:
+            failures_list = []
             for i in result.failures:
                 case_id = str(i[0]).split('(')[0]
                 case_info = str(i[1])
@@ -91,8 +90,10 @@ class AllResult(object):
             self.moudleName = ''
         self.matching = MyYaml().config('matching')        #正则
         self.ip = MyYaml().config('ip')
+        self.matching = MyYaml().config('matching')        #正则表达式匹配*_st.py
+        self.ip = MyYaml().config('ip')                    #  ip: 192.168.8.1
         self.domain = MyYaml().config('domain')     #本地测试环境
-        self.app_config = MyYaml().interface_data
+        self.app_config = MyYaml().interface_data     #获取接口数据
         if self.domain is None:
             self.get_url = 'http://{}/polls/get_report/'.format(self.ip)
         else:
