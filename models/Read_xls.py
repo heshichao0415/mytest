@@ -2,8 +2,6 @@ import os
 from configpath import getpath
 from xlrd import open_workbook
 import openpyxl
-import json
-import xlwt
 
 class Case:
     def __init__(self):
@@ -40,9 +38,9 @@ class readExcel():
             ws.cell(row=int(i[0]), column=1).value = int(i[0])
             ws.cell(row=int(i[0]), column=2).value = i[1]
         wb.save(self.xlsPath)
-        # ws['A1'] = 24
-        # ws.cell(row=1, column=3).value = 123
-        # wb.save(self.xlsPath)
+        ws['A1'] = 24
+        ws.cell(row=1, column=3).value = 123
+        wb.save(self.xlsPath)
 
 
 
@@ -70,5 +68,14 @@ class readExcel():
 #             cases.append(case)
 #         file.close()
 #         return cases
+#
+#
+#     def write_xls(self, xls_name, sheet_name, row, result, xxx):
+#         self.xlsPath = os.path.join(getpath(), "Case_data", xls_name)
+#         wb = openpyxl.load_workbook(self.xlsPath)
+#         ws = wb[sheet_name]
+#         ws.cell(row=row, column=7).value = result
+#         ws.cell(row=row, column=8).value = xxx
+#         wb.save(self.xlsPath)
 if __name__ == "__main__":
-    readExcel().write_xls('case_xy_huawei.xlsx', 'Sheet6')
+    readExcel().write_xls('case_xy_huawei.xlsx', 'Sheet2', 3, '我爱sads你', 'pass')

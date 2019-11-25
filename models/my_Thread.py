@@ -3,12 +3,6 @@ import time
 
 #定义线程要执行的函数
 def writing():
-    # a = 0
-    # c = 1
-    # while a <= 4:
-    #     print("我写的第%s篇字" % c)
-    #     c += 1
-    #     a += 1
     print("我在写字的哦")
     time.sleep(2)     #沉睡2秒，方便我们看到执行的过程
 
@@ -23,7 +17,7 @@ def main():
     t1.start()
     t2.start()
     time.sleep(1)    #沉睡1秒，方便我们看到执行的过程
-#
+
 # def main():
 #     writing()
 #     drawing()

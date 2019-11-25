@@ -134,6 +134,7 @@ class Myredis(object):
         module_list = []
         if count != 0:
             for i in range(count):
+
                 modules = self.r.rpop('{}_{}'.format(self.env, module))  #删除并返回列表最后一个值，当列表不存在时返回None
                 if modules is not None:
                     module_list.append(modules)

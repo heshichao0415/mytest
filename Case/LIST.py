@@ -128,7 +128,7 @@ import random
 from myloging import Loging
 log = Loging()
 a = [1, 2, 3, 4]
-b = [[1,2],[2,5],[3,6],[7,8]]
+b = [[1, 2], [2, 5], [3, 6], [7, 8]]
 sum1 = 0
 sum2 = 0
 cls = []
@@ -138,31 +138,15 @@ for i in a:
         c = i in x
         cls.append(c)
         s += 1
-        print(cls)
-
     if s == 4:
-        print(s)
         if True in cls:
             sum1 += 1
             log.info('原始网段%s包含在合并网段中' % i)
         else:
             sum2 += 1
-            log.info('原始网段%s没有包含在在合并网段中' % i)
+            log.error('原始网段%s没有包含在在合并网段中' % i)
     del cls[0:]
-print(cls)
-log.info('匹配成功的个数为：%s，匹配失败的个数为：%s，原始网段为：%s' % (sum1, sum2,a))
-print(cls)
-#
-# a = 'safasfasffa'
-# c = random.choice(a)
-# print(c)
 
-# from configpath import getpath
-# import os
-#
-# path = getpath()
-#
-# pa = os.path.join(path, 'result', 'file.html')
-#
-# with open(pa, 'w') as e:
-#     e.write('afsfsfasg')
+log.info('匹配成功的个数为：%s，匹配失败的个数为：%s，原始网段为：%s' % (sum1, sum2,a))
+
+

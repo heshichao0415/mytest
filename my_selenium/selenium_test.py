@@ -142,12 +142,10 @@ class Selenium_test(unittest.TestCase):
         dr.switch_to.window(search_windows1)     #切换到第二个窗口
         text = dr.find_element_by_xpath('//*[@id="__next"]/div[1]/div/div/section[1]/article/h1[1]').text
         if text == '什么是selenium':
-            log.info('切换到第二个窗口成功')
+            log.info('切回到第二个窗口成功')
         else:
-            log.error('切换到第二个窗口失败')
+            log.error('切回到第二个窗口失败')
         #警告弹窗问题处理？？？
-
-
 
 
     def tearDown(self):
