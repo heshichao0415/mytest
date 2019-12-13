@@ -119,6 +119,7 @@ class Selenium_test(unittest.TestCase):
         #     log.info('窗口切换成功')
         # else:
         #     log.error('窗口切换失败')
+
         #第二种方法
         for i in windows:
             if i != search_windows:
@@ -153,4 +154,3 @@ class Selenium_test(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
