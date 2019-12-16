@@ -19,8 +19,11 @@ config:
   thread_count: 2  # 一次启动多少个线程
 
 reptile:
-  url: http://photo.sina.com.cn/         #url地址
-  matching: 'src="(.+?\.jpg)"'         #正则
+#  url: http://photo.sina.com.cn/         #url地址
+  url: http://www.quanshuwang.com/book/44/44683   #url地址
+#  matching: 'src="(.+?\.jpg)"'         #正则
+  matching: '<li><a href="(.*?)" title=".*?">(.*?)</a></li>'
+  method: get
 
 log:
   level: 10  # log级别（NOTSET, DEBUG, INFO, WARNING, ERROR, CRITICAL对应的值分别为：0,10,20,30,40,50）
