@@ -45,6 +45,10 @@ class MyYaml:
         """sql"""
         return self.ALLYaml()['sql'][node]
 
+    def reptile(self,node):
+        """爬虫"""
+        return self.ALLYaml()['reptile'][node]
+
     def baseData(self,node):
         """基础数据"""
         return self.ALLYaml()['data'][node]

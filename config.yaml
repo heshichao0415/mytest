@@ -18,6 +18,9 @@ config:
   matching: '*_st.py'   # 正则匹配用例
   thread_count: 2  # 一次启动多少个线程
 
+reptile:
+  url: http://photo.sina.com.cn/         #url地址
+  matching: 'src="(.+?\.jpg)"'         #正则
 
 log:
   level: 10  # log级别（NOTSET, DEBUG, INFO, WARNING, ERROR, CRITICAL对应的值分别为：0,10,20,30,40,50）
